@@ -44,7 +44,7 @@ export const Employee = () =>{
             headers: {
                 "content-Type":"application/json"
             }
-      }).then(getEmployees)
+      }).then(getEmployees).then(UpdateEmployees)
     }
     /* HERE I AM GETTING THE EMPLOYEE DETAILS FROM THE DB.JSON */
     const getEmployees = () =>{
@@ -54,6 +54,24 @@ export const Employee = () =>{
       .then(()=>{setLoading(false)})
       .catch(err=>{
           console.log(err.message)
+      })
+    }
+    /*HERE UPDATING THE EMPLOYEE DETAILS */
+    const UpdateEmployees = () =>{
+      fetch(`http://localhost:3001/Employees?Name=${name}`,{
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name:name
+        })
+      }).then(response => response.json())
+      .then(data =>{
+        if(data.Name === name)
+        {
+          alert("The User Already Exist, Do you Want to Upadated the user")
+        }
       })
     }
     return (loading?"....loading please wait":<div>
