@@ -6,7 +6,7 @@
 
 ## Links Related to  project Demo
 
-[Project Demo Video Link]()
+[Project Demo Video Link](https://drive.google.com/file/d/13uX4VNeFj6QA9ARPmlN5YKVQ6uwVDPMS/view?usp=sharing)
 
 # Member
    *  Kiran Kumar Medikurthy
@@ -35,12 +35,12 @@
 * When you start the Application, It will open a new window in the Browser
 
 * You can a **Employess Form** then You can start add employee details like
-        * Name
-        * Email Address
-        * Phone Number
-        * Date of Birth
-        * Gender
-        * Hobbies
+    * Name
+    * Email Address
+    * Phone Number
+    * Date of Birth
+    * Gender
+    * Hobbies
 
 * On clicking the **SUBIT DETAILS BUTTON** The Employee Details have been stored in the **db.json** file present is **src directory**.
 
@@ -67,9 +67,9 @@
 # Some snapshots of how our App Looks Like: 
 
 ## Employees Forms
-![Employee Forms]() 
+![Employee Forms](https://github.com/kirankumar-medikurthy/TericSoft-Assignment/blob/master/App-Images/EmployeeForm1.png?raw=true) 
 ## Employees Details
-![Employees Details]();
+![Employees Details](https://github.com/kirankumar-medikurthy/TericSoft-Assignment/blob/master/App-Images/Employee-Details-2.png?raw=true);
 
 
 
