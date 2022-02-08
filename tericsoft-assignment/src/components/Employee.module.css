@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK7WGr5Q_RmOo-hW_oCofdXRBo6MsypuS-XOwWk0offGqiz3yJ0xO8uD5uSbXhYgbmrP8&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#FormLayout {
+    display:flex;
+    flex-direction: row;
+    margin-left:35%;
+    width:25%;
+    padding:20px 50px 20px 20px;
+    border:1px solid black;
+}
+
+.textfieldstyles {
+    display: flex;
+    flex-direction: column;
+    width:400px;
+}
+
+.RadioBtnStyles,.CheckBoxesStyles {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+}
+
+.name,.email,.phone,.dob {
+    margin: 20px 0px 20px 0px;
+}
+
+.genderlabel,.CheckBoxLabel {
+    text-align: left;
+}
+
+.submitBtn {
+    margin:auto;
+    width:50%;
+}
+
+.DisplayEmployeePropTags {
+    display:flex;
+    flex-direction: row;
+    width:80%;
+    height: 300px;
+    margin:auto;
+    overflow: scroll;
+    margin-bottom:30px;
+}
+
+.EmployeeDetailsHeading,.EmployeeForms{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color:#FF5722;
+}
+
+.dob {
+    height:50px;
+    font-size:20px;
+    background-color:#FBC02D;
+}
