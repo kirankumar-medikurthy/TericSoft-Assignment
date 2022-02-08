@@ -28,7 +28,7 @@
     * cd /home/kirankumar/Git_Repository/webfw11_024/InterViewProjectAssignments/tericsoft-assignment
 * Run **npm install or yarn** Inorder to download the dependencies for Employee Details projects
 
-* Run **json-server --port db.json** on the **src directory** To Run a JSON-SERVER in order to display details about the employees;
+* Run **json-server --port 3001 db.json** on the **src directory** To Run a JSON-SERVER in order to display details about the employees;
 
 * Run  **npm start or yarn start** on the **src directory** to start our react Application;
 
