@@ -64,6 +64,34 @@
         "music": true
       },
       "id": 5
+    },
+    {
+      "Name": "Soumitha",
+      "email": "soumitha@gmail.com",
+      "phone": "9090909000",
+      "gender": "female",
+      "dob": "1998-02-21",
+      "hobbies": {
+        "eating": true,
+        "coding": true,
+        "music": true,
+        "sleeping": true
+      },
+      "id": 6
+    },
+    {
+      "Name": "Praveen Belduri",
+      "email": "praveen@gmail.com",
+      "phone": "9090909000",
+      "gender": "female",
+      "dob": "1998-02-21",
+      "hobbies": {
+        "eating": true,
+        "coding": true,
+        "music": false,
+        "sleeping": true
+      },
+      "id": 7
     }
   ]
 }
