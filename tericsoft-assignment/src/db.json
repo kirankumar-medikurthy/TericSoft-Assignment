@@ -92,6 +92,59 @@
         "sleeping": true
       },
       "id": 7
+    },
+    {
+      "Name": "kalpana",
+      "email": "kalpana@gmail.com",
+      "phone": "9090909090",
+      "gender": "female",
+      "dob": "2022-04-07",
+      "hobbies": {
+        "eating": true,
+        "coding": true,
+        "music": true,
+        "sleeping": true
+      },
+      "id": 8
+    },
+    {
+      "Name": "Sudhaker",
+      "email": "Sudhaker@gmail.com",
+      "phone": "9090909090",
+      "gender": "male",
+      "dob": "2022-04-08",
+      "hobbies": {
+        "eating": true,
+        "coding": false,
+        "music": true,
+        "sleeping": false
+      },
+      "id": 9
+    },
+    {
+      "Name": "Sumanjail",
+      "email": "sumanjail@gmail.com",
+      "phone": "8989898989",
+      "gender": "female",
+      "dob": "2022-04-04",
+      "hobbies": {
+        "coding": true,
+        "sleeping": true
+      },
+      "id": 10
+    },
+    {
+      "Name": "madhan",
+      "email": "madhan@gmail.com",
+      "phone": "8989898989",
+      "gender": "male",
+      "dob": "2022-04-15",
+      "hobbies": {
+        "eating": true,
+        "coding": true,
+        "music": true
+      },
+      "id": 11
     }
   ]
 }
